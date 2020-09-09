@@ -22,3 +22,14 @@ Common switches used are: `-r` for recursive searching and `-i` to ignore text c
     We will `echo`(output) a `string of text` then `|`(pipe) the text into `sed` and edit the text to be returned.
 
         user@domain:~$ echo "string of text" | sed 's/text/words/'
+
+## **cut**
+> The `cut` command is simple, but often comes on quite handy. It is used to extract a section of text from a line and output it to the standard output. Some of the most commonly-used switches include `-f` for the field number we are cutting and `-d` for the field delimiter.
+
+- **EX:**
+    `echo`(print) "some text, seperated, by stuff, ya" `|`(pipe) the output to `cut` `-f` feild number `-d` delimiter ","
+
+        user@domain:~$ echo "some text, seperated, by stuff, ya" | cut -f 2 -d ","
+
+## **awk**
+> `awk` is a programming language designed for text processing and is typically used as a data extraction and reporting tool. It is also extremely powerful and can be quite comple. Commonly used switch is `-F`, which is the field separator and the print command, which outputs the result text.
