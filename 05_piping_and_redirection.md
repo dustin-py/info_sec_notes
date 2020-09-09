@@ -53,3 +53,7 @@
         18 <-- count of characters in file
 
 ## **Redirecting STDERR**
+> According to th POSIX spec, the file descriptors for STDIN, STDOUT, and STDERR are defined as 0, 1, and 2 respactively. These numbers are important as they can be used to manipulate the corresponding data streams from the command line while executing or joining different commands together.
+
+## **Piping**
+> Piping is when you redirect the output of one command to the input of another command.
