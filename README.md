@@ -49,3 +49,57 @@ executes by `name.file` instead of `~./this/dir/here/name.file`
 	
 		export PATH=$PATH:/place/with/the/file
 
+# **Managing Kali Linux Services:**
+> Kali is a specialized distro aimed at security professionals. Kali 
+installation ships with several services preinstalled such as `SSH`, 
+`HTTP`, `MySQL`, etc. Consequently, these services would load at
+boot, which result in Kali exposing several open ports by default-something 
+we want to avoid for security reasons. Kali deals with this issue by 
+updating its settings to prevent network services from starting at boot.
+
+> Kali also contains a mechanism to both whitelist and black list
+various services.
+
+## **SSH Service**
+> Secure SHell service, commonly used to remotely access a computer,
+using a secure, encrypted protocol. SSH service is TCP-based and 
+listens by default on port 22.
+
+- **Start SSH Service** :When this command completes successfully,
+it does not return any output.
+
+		sudo systemctl start ssh
+
+- **Verify SSH Service** :run and listen on TCP port 22
+
+		sudo ss -antlp | grep sshd
+
+- **Start SSH Services on Boot** 
+`systemctl` enables and disables most services within Kali
+
+		sudo systemctl enable ssh 
+
+## **HTTP Service**
+> The Apache HTTP service is often used during a penetration test, 
+either for hosting a site, or providing a platform for downloading files
+to a victim machine. The HTTP service is TCP-based and listens defaulted
+on port 80.
+
+- **Start HTTP Service** 
+
+		sudo systemctl start apache2
+
+- **Verify HTTP Service**
+
+		sudo ss -antlp | grep apache
+
+- **Start HTTP Services on Boot**
+
+		sudo systemctl enable apache2
+
+## **View all Services**
+> See a table of all available services
+
+		systemctl list-unit-files
+
+
