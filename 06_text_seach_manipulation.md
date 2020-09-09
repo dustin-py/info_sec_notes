@@ -14,3 +14,11 @@ Common switches used are: `-r` for recursive searching and `-i` to ignore text c
         Downloads/
         Desktop/ 
 
+## **sed**
+> A powerful and complex stream editor. At a very high level, `sed` performs text exiting on a stream of text, either a set of specific files or standard output.
+
+- **EX:**
+    Here is a small example of its use:
+    We will `echo`(output) a `string of text` then `|`(pipe) the text into `sed` and edit the text to be returned.
+
+        user@domain:~$ echo "string of text" | sed 's/text/words/'
