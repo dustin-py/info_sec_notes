@@ -11,7 +11,7 @@
 
 |Type|Oporator|
 |---|---|
-|PIPING| `|` |
+|PIPING| `\|` |
 |REDIRECTION| `>` and `<`|
 
 ## **Redirecting to a New File**
