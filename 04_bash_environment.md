@@ -5,8 +5,9 @@ When opening a terminal window, a new Bash process, which has its own
 environment variable is initialized. These variables are a form of global storage for various settings inherited by any applications that are run during that terminal session. One of the most commonly-referenced environment variables is `PATH`, which is a colon-separated list of directory paths that Bash will search through whenever a command is run without a full path.
 
 - **View PATH contents:**
+    - Show all directories in the path environment.
 
-        user@domain:~$ echo $PATH
+            user@domain:~$ echo $PATH
 
 - **Common Environment Variables:**
     - User Name
