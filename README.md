@@ -47,5 +47,5 @@ executes by `name.file` instead of `~./this/dir/here/name.file`
 
 - **Example of addind to path:**
 	
-	export PATH=$PATH:/place/with/the/file
+		export PATH=$PATH:/place/with/the/file
 
