@@ -12,17 +12,44 @@
 |Type|Oporator|
 |---|---|
 |PIPING| `\|` |
-|REDIRECTION| `>` and `<`|
+|REDIRECTION| `>`, `>>`, `<`|
 
 ## **Redirecting to a New File**
 > This is convenient most of the time, but we can use the `>` operator to save the output to a file to keep it for future reference or manipulation.
 
 - **EX:**
+    Create a new file and store some text in it.
 
         user@domain:~$ echo "some text" > test.txt
 
-    If we view `test.txt` ill display `"some text"`
+    If we view `test.txt` it'll display `"some text"`
 
         user@domain:~$ cat test.txt
         some text
 
+## **Redirecting to an Existing File**
+> To append additional data to an existing file (as opposed to overwriting the file) use the `>>`operator
+
+- **EX:**
+    Add more text to an existing file from above.
+
+        user@domain:~$ echo "more text" >> test.txt
+
+    We use `>>` because `>` would overwrite the file.
+
+    If we view `test.txt` it'll display all content.
+
+        user@domain:~$ cat test.txt
+        some text
+        more text
+
+## **Redirecting from a File**
+> As you may have guessed, we can use the `<` operator to send data the "other way".
+
+- **EX:**
+    Lets pass the `test.txt` file into a program
+
+        user@domain:~$ wc -m < test.txt
+        18 <-- count of characters in file
+
+## **Redirecting STDERR**
