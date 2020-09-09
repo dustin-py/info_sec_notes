@@ -8,43 +8,53 @@ I highly recommend becomming very familiar with these commands.
 
 **Anything surrounded with `<>` is an argument needed for the command.
 
-## **user@domain:~$ apt update**
+## **Update**
 **Allways run this before installing anything**
 
-## **user@domain:~$ apt upgrade**
-- upgrade all that can be
+    user@domain:~$ apt update
 
-## **user@domain:~$ sudo <command/s>**
-- sudo is used at the start of a command to tell it to use root privillages
+## **Upgrade all that can be upgraded**
 
-## **user@domain:~$ ls** 
-- List all contents of the working directory 
+    user@domain:~$ apt upgrade
 
-## **user@domain:~$ cd <directory>**
-- Change to a new directory
+## **Sudo is used at the start of a command to tell it to use root privillages**
 
-## **user@domain:~$ rm <file>**
-- Remove specified file/s
+    user@domain:~$ sudo <command/s>
 
-## **user@domain:~$ rmdir <directory>**
-- Remove specified directory
+## **List all contents of the working directory** 
 
-## **user@domain:~$ mkdir <new_directory>**
-- Make a new directory
+    user@domain:~$ ls
 
-## **user@domain:~$ touch <new_file>**
-- Create a new file from the command line
+## **Change to a new directory**
 
-## **user@domain:~$ mv**
-- This command can do two different things. Those are *move* or *rename*
+    user@domain:~$ cd <directory>
+
+## **Remove specified file/s**
+
+    user@domain:~$ rm <file>
+
+## **Remove specified directory**
+
+    user@domain:~$ rmdir <directory>
+
+## **Make a new directory**
+
+    user@domain:~$ mkdir <new_directory>
+
+## **Create a new file from the command line**
+
+    user@domain:~$ touch <new_file>
+
+## **This command can do two different things. Those are move or rename**
     
-    - **Rename:**
+- **Rename:**
 
-            user@domain:~$ mv <old_name> <new_name>
+        user@domain:~$ mv <old_name> <new_name>
 
-    - **Move:**
+- **Move:**
 
-            user@domain:~$ mv <file> /new/location/<file>
+        user@domain:~$ mv <file> /new/location/<file>
 
-## **user@domain:~$ cat <file>**
-- Print the contents of a file
+## **Print the contents of a file**
+
+    user@domain:~$ cat <file>
