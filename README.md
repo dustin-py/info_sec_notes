@@ -46,5 +46,6 @@ named `locate.db` rather than the entire hard disk itself.
 executes by `name.file` instead of `~./this/dir/here/name.file`
 
 - **Example of addind to path:**
+	
 	export PATH=$PATH:/place/with/the/file
 
