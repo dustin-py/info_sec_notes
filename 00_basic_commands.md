@@ -58,3 +58,15 @@ I highly recommend becomming very familiar with these commands.
 ## **Print the contents of a file**
 
     user@domain:~$ cat <file>
+
+## **Display the head of a file**
+
+    user@domain:~$ head <file>
+
+## **Sort lines of text files**
+
+    user@domain:~$ sort <file>
+
+## **Report or omit repeated lines**
+
+    user@domain:~$ uniq
