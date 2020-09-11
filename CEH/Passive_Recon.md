@@ -1,8 +1,5 @@
-# **Foot Printing**
-> What is foot printing?
-> Foot Printing is reconnaissance on a target.
+# **Passive Recon**
 ---
-## **Passive Recon**
 - Any sort of recon done without actual hacking, such as;
     - *google searches*
     - *social media searches*
@@ -15,15 +12,19 @@
     - *discover os*
     - *web crawlers/scrappers*
 
-### **Google-Foo**
+---
+
+## **Google-Foo**
 **googledorks**
-- site:<web site to search>
-- inurl:<pattern in url>  ex: inurl: id=1 #sqli
-- intitle:<pattern in html title>
+- site: web site to search
+- inurl: pattern in url  ex: inurl: id=1 #sqli
+- intitle: pattern in html title 
 - ***google hacking database***
     - view more foo here
 
-### **Tools**
+---
+
+## **Tools**
 - `theharvester` --cli
 - `sublist3r` --cli
 - `burpsuit` *proxies* --gui
@@ -33,9 +34,11 @@
 - `whois` *tons of info* --cli
 - `traceroute` --cli
 - `recon-ng` --cli
-- `maltego` --gui
+- `maltego` --gui 
+
 ---
-### **Web Services**
+
+## **Web Services**
 - `netcraft`
 - `shodan` 
 - `censys.io`
