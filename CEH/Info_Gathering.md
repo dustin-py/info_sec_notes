@@ -46,4 +46,6 @@
 - `shodan` 
 - `censys.io`
 - `whois`
+- `spokeo`
+- `AnyWho`
 ---
