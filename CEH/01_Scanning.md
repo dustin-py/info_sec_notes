@@ -1,10 +1,6 @@
-# Attacks and Exploits
+# **Scanning**
 ---
-## **Host Discovery**
-Scan for live devices on a host.
-
----
-### **Basic Scan**
+## **Basic Scan**
 - `ping <host address>` *think sonar ; icmp echo*
     - ***EX of ping sweep script (.sh)***
 
@@ -19,10 +15,10 @@ Scan for live devices on a host.
 
             ## note: `&` tells it to run in back which means....bash bash go fast fast
 ---
-### **Scanning with nmap**
+# **Scanning with nmap**
 ***Always use `--send-ip`***
 
-#### **Types of Scans**
+## **Types of Scans**
 - **Stealth Scan:**
     - Stealth scan switch tag `-sS`
     - This is the default nmap scan.
@@ -53,7 +49,7 @@ Scan for live devices on a host.
         - **URG**: urgent!! go go go!!!
     - ***FIN SCANS ARE GOOD FOR SLIPPING THROUGH NON-STATFUL FIREWALLS***
 
-### **Performance Enhancers**
+## **Performance Enhancers**
 - **Fragmentation**
     - Fragmentation switch tag `-F`.
     - help slip through firewall or ids, not getting enough of the packet to hit a rule.
@@ -117,7 +113,7 @@ Scan for live devices on a host.
     - switch tag `-il <file.name`
     - read ips from file list
 ---
-### **Tools**
+## **Tools**
 - `nmap` --cli
 - `zenmap1` --gui
 - `hping3` --cli
@@ -125,5 +121,5 @@ Scan for live devices on a host.
 - `wireshark` *packet sniffer* --gui
 - `xsltproc` *format xml* --cli
 
-### **Services**
+## **Services**
 - **NSEDocs** nmap scripting engine
