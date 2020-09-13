@@ -1,4 +1,4 @@
-# **Password Attacks**
+# **Password Attacks Part 1**
 ---
 ## **Non-Tech Aprroach**
 - **Shoulder Surfing**
