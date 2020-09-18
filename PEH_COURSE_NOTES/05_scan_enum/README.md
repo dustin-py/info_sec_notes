@@ -20,4 +20,9 @@
     - Type/s: ssh <- *secure shell*
 ## **Vuln Scans**
 - dir enums and vuln scans
-- `nikto`
+- `nikto`: for dir enum and vuln scans
+## **SMB Enum**
+- smb is a fileshare
+- `smbclient`: for accessing smb servers
+## **SSH Enum**
+- 
