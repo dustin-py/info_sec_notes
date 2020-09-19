@@ -23,4 +23,6 @@
 - actual password hashs are stored in `/etc/shadow`
 - **tool**: `unshadow passwdfile shadowfile` gives full hash
 - hashs:`$1$` md5
-- if you see windows 7 smb think enternal blue
+- if you see windows 7 smb think ms170101 enternal blue
+- remember to check if payloade is `satged` or `non-staged`
+
