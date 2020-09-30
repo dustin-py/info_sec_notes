@@ -26,4 +26,11 @@
 - if you see windows 7 smb think ms170101 enternal blue
 - remember to check if payloade is `satged` or `non-staged`
 - a default web page is flag that we can maybe find some directories with vulurable files
-
+- the `NetBIOS` tells machines name
+- if you ever see `message_signing: disabled` this is a find!!!!!!!!!!!!!!!!!!
+- auxiliary modules are our scanning and enums in `ms4`
+- ftp is great, unless there is no way to get a 2nd party to execute the file.
+- `msfvenom`: generates malware
+- ftp transfer file to binary instead of ascii
+- `msf venom payloads`
+- default creds
