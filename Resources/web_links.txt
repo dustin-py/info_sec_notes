@@ -1,0 +1,9 @@
+##Reflecting remote files and folders using local git repo:
+- https://github.com/bl4de/research/tree/master/hidden_directories_leaks#hidden-directories-and-files-as-a-source-of-sensitive-information-about-web-application
+---
+##BGP (Bridge Gateway Protocol):
+- https://www.cloudflare.com/learning/security/glossary/what-is-bgp/
+---
+##Network Pivoting:
+- https://www.tutorialspoint.com/metasploit/metasploit_pivoting.htm
+---
