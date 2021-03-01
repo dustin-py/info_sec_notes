@@ -1,5 +1,5 @@
 """Module for conversion functions"""
-from utils import check_bits
+from Classes import utils
 
 
 class Converter:
@@ -16,7 +16,7 @@ class Converter:
                 bits = bits + str(tmp_num // position_num)
                 tmp_num = tmp_num % position_num
                 position_num = position_num // 2
-            bits = check_bits(bits)
+            bits = utils.check_bits(bits)
             bin_nums.append(bits)
         return bin_nums
 
