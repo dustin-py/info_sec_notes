@@ -9,7 +9,7 @@ int bf_overflow(char *str){
  
 int good_password(){ 		// a function which is never executed
        printf("Valid password supplied\n"); 
-       printf("This is good_password function \n"); 
+       printf("This is good_password function \n");
 }
  
 int main(int argc, char *argv[]) 
