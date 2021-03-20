@@ -1,0 +1,7 @@
+https://www.w3schools.com/tags/ref_urlencode.asp -- html url encodings
+https://unicode-table.com/en/#basic-latin -- unicode guide
+https://www.ascii-code.com/ -- ascii code guide
+http://projects.webappsec.org/w/page/13246978/Threat%20Classification -- report writing resource
+http://capec.mitre.org/data/lists/2000.html -- report writing resource
+https://owasp.org/www-project-web-security-testing-guide/v42/ -- testing guide
+http://www.pentest-standard.org/index.php/Main_Page -- testing/report guide

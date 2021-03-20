@@ -1,0 +1,24 @@
+===========DNS===========
+= whois                 =
+= nslookup              =
+= netcraft.com          =
+= arin.net              =
+= whois.domaintools.com =
+= ripe.net              =
+=========================
+=====Finger Printing=====
+= netcat (nc)           =
+= httprint              =
+= whatweb               =
+= wappalyzer            =
+=========================
+==SubDomain Enumeration==
+= dnsrecon              =
+= subbrute              =
+= fierce                =
+= Nmap                  =
+= dnsenum               =
+= knock                 =
+= theHarvester          =
+= recon-ng              =
+=========================
